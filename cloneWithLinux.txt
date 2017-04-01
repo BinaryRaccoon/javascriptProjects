@@ -1,0 +1,6 @@
+Clone with Linux:
+
+mkdir git-repos
+cd git-repos
+git clone https://github.com/KaileyCozart/fileName.git
+
