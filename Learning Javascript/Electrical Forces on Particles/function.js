@@ -2,8 +2,9 @@ function electricalForce(chargeOne, chargeTwo, radius, theta) {
     var top = (9 * 1000000000) * chargeOne * chargeTwo;
     var bottom = (radius) * (radius);
     var force = top / bottom;
-    var xVariable = Math.cos(theta) ; 
-    var yVariable = Math.sin(theta) ;
+    var thetaDegrees = theta * Math.PI / 180;
+    var xVariable = Math.cos(thetaDegrees) * force; 
+    var yVariable = Math.sin(thetaDegrees) * force;
     var polar = '(' + xVariable + ', ' + yVariable +')';
     return polar; 
 }
