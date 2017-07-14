@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple; 
+}
+
+li {
+    border: 2px solid grey; 
+    border-radius: 3px;
+    margin-top: 10px; 
+    width: 50%; 
+    list-style-type: none; 
+    background-color: lightgrey;
+}
+
+form {
+    margin-top: 10px;   
+    margin-left: 40px; 
+}
+
+div.newItemButton {
+    margin-left: 40px; 
+}
