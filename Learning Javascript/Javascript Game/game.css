@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+h1 {
+    color: white; 
+}
+
+.fixedDiv {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+}
+
+.fixedDivTwo {
+    width: 700px;
+    height: 500px;
+    background-color: black;
+}
+
+.player {
+    width: 10px;
+    height: 10px; 
+    background-color: blue; 
+    position: relative; 
+}
+
+.topWall, .bottomWall {
+    width: 700px;
+    height: 10px; 
+    background-color: red; 
+    position: absolute;
+}
+
+.bottomWall {
+    margin-top: 20px; 
+}
+
+.killed {
+    background-color: red; 
+    width: 10px !important;
+    height: 10px !important; 
+}

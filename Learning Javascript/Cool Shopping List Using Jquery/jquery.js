@@ -1,3 +1,5 @@
+// Hide and Show Message And List
+
 var $div = $('div.openingMessage');
 var $button = $('input#message');
 var $content = $('div.content');

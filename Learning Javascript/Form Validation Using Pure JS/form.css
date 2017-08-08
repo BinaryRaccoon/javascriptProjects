@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple; 
+    padding-left: 40px; 
+}
+
+input {
+    margin-top: 10px;   
+    border-radius: 3px;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 3px;
+    border-width: 0px; 
+    background-color: purple;
+    color: white; 
+} 
+
+button:hover {
+    background-color: white;
+    color: purple; 
+    border: 1px solid purple; 
+}
+
+
+.defaultItem {
+    background-color: lightblue; 
+}
