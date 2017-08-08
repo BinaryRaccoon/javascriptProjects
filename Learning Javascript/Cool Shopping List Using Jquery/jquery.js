@@ -5,12 +5,12 @@ var $button = $('input#message');
 var $content = $('div.content');
 
 $(function(){
-        $content.hide();
-        $button.on('click', function(){
-            $div.hide();
-            $content.show();
-        });
+    $content.hide();
+    $button.on('click', function(){
+        $div.hide();
+        $content.show();
     });
+});
 
 // Add New Items To List And Fade Out Added Li Tags On Click
 

@@ -14,7 +14,7 @@ li {
     margin-top: 10px; 
     width: 50%; 
     list-style-type: none; 
-    background-color: lightgrey;
+    background-color: darkgrey;
 }
 
 form {
@@ -22,5 +22,5 @@ form {
 }
 
 .defaultItem {
-    background-color: lightblue; 
+    background-color: lightgrey; 
 }
