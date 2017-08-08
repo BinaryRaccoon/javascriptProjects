@@ -7,6 +7,11 @@
     height: 500px; 
     margin-right: auto;
     margin-left: auto; 
+    margin-top: 50px; 
+}
+
+.bigWrapper {
+    width: 120px;
 }
 
 .bubble {
@@ -25,12 +30,8 @@
     flex: 1; 
     float: left; 
     margin-right: 10px;
+    margin-bottom: 10px; 
 }
-
-.bubbleDiv:first-child {
-    margin-left: 10px; 
-}
-
 
 .testBubble {
     /*
@@ -41,12 +42,14 @@
 }
 
 .testBubbleChild {
-    background-color: grey; 
-    visibility: hidden;
+    background-color: darkslategray;
 }
 
-.hidden {
-    visibility: hidden; 
+.testBubbleChildrenDiv {
+    background-color: aquamarine; 
+    visibility: hidden;
+    height: 540px;
+    width: 500px; 
 }
 
 .visible {

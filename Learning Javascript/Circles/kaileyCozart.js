@@ -12,7 +12,19 @@ testBubble.onclick = function() {
     }
 };
 */
+var testBubbleChildrenDiv = document.getElementById('testBubbleChildrenDiv');
+    bigWrapper = document.getElementById('bigWrapper');
 
+bigWrapper.onclick = function() {
+    if (testBubbleChildrenDiv.className = "testBubbleChildrenDiv") {
+        testBubbleChildrenDiv.classList.add("visible");
+    }
+    else if (testBubbleChildrenDiv.className = "testBubbleChildrenDiv visible") {
+        testBubbleChildrenDiv.classList.remove("visible");
+    }
+};
+
+/* >>>>>>>>>>>>
 var testBubble = document.getElementById('testBubble');
 var testBubbleChild = document.getElementsByClassName('testBubbleChild');
 
@@ -24,6 +36,8 @@ testBubble.onclick = function() {
         i+1; 
     }
 };
+<<<<<<<<<<<<<< */ 
+
 /*
 var testBubbleChildOne = documnt.getElementById('testBubbleChildOne');
 testBubbleChildOne.ondblclick = function() {
