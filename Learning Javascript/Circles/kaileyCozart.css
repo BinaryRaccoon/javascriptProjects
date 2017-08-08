@@ -1,0 +1,54 @@
+/* Bubble CSS */ 
+
+.testBubblesWrapper {
+    display: flex;
+    flex-flow: row; 
+    width: 600px;
+    height: 500px; 
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.bubble {
+    border-radius: 50%; 
+    /*
+    height: 250px;
+    width: 250px; 
+    */
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bubbleDiv {
+    flex: 1; 
+    float: left; 
+    margin-right: 10px;
+}
+
+.bubbleDiv:first-child {
+    margin-left: 10px; 
+}
+
+
+.testBubble {
+    /*
+    background-image: url("images/JXwuN2Q.jpg");
+    background-size: cover;
+    */
+    background-color: darkslategray; 
+}
+
+.testBubbleChild {
+    background-color: grey; 
+    visibility: hidden;
+}
+
+.hidden {
+    visibility: hidden; 
+}
+
+.visible {
+    visibility: visible; 
+}
