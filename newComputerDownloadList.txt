@@ -1,0 +1,34 @@
+Git Hub:
+    git init 
+    //git configure global username
+    //git congigure global password
+    //git set password to only be required 1x per day
+    //git download repos needed
+
+Tilda:
+    sudo apt-get tilda 
+    //configure as needed
+
+Chrome:
+    //download Chrome and make default browser
+
+Tor:
+    //download Tor
+
+Visual Studio:
+    //download and init
+
+Slack:
+    //download and log in
+
+Synergy:
+    //download, configure, and get synergy working
+
+Dashlane:
+    //download and login
+
+OneNote:
+    //download and login
+
+Origin (pc only):
+    //download and login

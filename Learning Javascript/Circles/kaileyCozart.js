@@ -12,6 +12,7 @@ testBubble.onclick = function() {
     }
 };
 */
+
 var testBubbleChildrenDiv = document.getElementById('testBubbleChildrenDiv');
     bigWrapper = document.getElementById('bigWrapper');
 
