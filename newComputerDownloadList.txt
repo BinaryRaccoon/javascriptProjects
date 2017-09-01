@@ -15,7 +15,7 @@ Chrome:
 Tor:
     //download Tor
 
-Visual Studio:
+Visual Studio Code:
     //download and init
 
 Slack:
