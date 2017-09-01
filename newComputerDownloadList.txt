@@ -32,3 +32,6 @@ OneNote:
 
 Origin (pc only):
     //download and login
+
+Steam (pc only):
+    //download and login
